@@ -52,6 +52,16 @@
   color: white;
 }
 
+
+span{ display: inline-block; }
+.mirror {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
 .connect-wallet-button {
   background: -webkit-linear-gradient(left, #60c657, #35aee2);
   background-size: 200% 200%;
@@ -63,6 +73,21 @@
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-left: 10px;
+}
+
+.smoke-button {
+  margin-top: -10px;
+  margin-left: 0;
+  position: absolute;
+  /*width: 120px;*/
+  text-align: center;
+  /*border-radius: 10px;*/
+  cursor: pointer;
+  font-size: 32px;
+  font-weight: bold;
+  /*color: white;*/
+  border: none;
+  background: none;
 }
 
 .footer-container {
