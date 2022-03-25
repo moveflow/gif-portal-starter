@@ -1,0 +1,16 @@
+[features]
+seeds = false
+[programs.devnet]
+myepicproject = "iMbkbxLVQTcikxQfagBQNwYmvLbeJ62A61d7aRryibJ"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "id.json"
+
+[scripts]
+test = "node tests/myepicproject.js"
+#[scripts]
+#test = "yarn run mocha -t 1000000 tests/"
